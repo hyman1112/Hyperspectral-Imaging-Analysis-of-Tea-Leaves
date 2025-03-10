@@ -1,6 +1,13 @@
-針對不同茶葉的分析我們先使用非監督式學習方法中之分群技術（Clustering）分
-析不同茶葉之間是否存在頻譜上的特徵差異，當Clustering結果呈現的顏色區塊分布差
-異甚大，即可得知茶葉有成功分群。由於Clustering的判斷結果無法得知原茶葉品種，
-後續再使用監督式學習分類演算法（Classification），將不同茶葉類別依據人工標記的
-類別訊息進行分類，並透過模型評估方法比較各演算法的優缺，以深入理解不同演算
-法之設計差異與適用情形。 
+## 前言
+高光譜影像（Hyperspectral)是一種可以捕獲和分析空間區域內逐點上光譜的精細技術，由於其採集之光譜影像含括可見光與不可見光部分，可透過物件的獨特光譜特徵以區別不同的物件材質，因此也可以檢測出人眼視覺上無法區分的物質。
+本專題透過imec Snapscan VNIR 高光譜影像儀採集紅茶、綠茶、烏龍茶之多種不同產地之茶葉影像，針對各產地的多種茶葉進行頻譜分析，並使用 K-means、Fuzzy C-means、DBSCAN等分群演算法，以及SVM、KNN等分類演算法分析其頻譜特徵，進而判斷所照茶葉之種類為何，而不是透過傳統人眼或人工品嘗方式進行辨識，以提升辨識之效能。
+
+## 取像資料
+
+![image](https://github.com/user-attachments/assets/1ede22ba-abc0-423f-9693-63731dbe1277)
+
+![image](https://github.com/user-attachments/assets/e68803f1-c044-4a28-8c1f-c99b9f203b71)
+
+![image](https://github.com/user-attachments/assets/b6a71008-69c4-4fea-8669-d956da80945e)
+
+
