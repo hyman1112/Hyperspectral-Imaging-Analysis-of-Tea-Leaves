@@ -17,7 +17,7 @@
 
 ![image](https://github.com/user-attachments/assets/b6a71008-69c4-4fea-8669-d956da80945e)
 
-由於資料可能因雜訊、環境光等造成數值落差太大，透過影像平均濾波分析(average filtering)對原收集之高光譜影像進行處理，其中使用固定視窗大小(window)，如圖，視窗大小為3*3，選擇欲分析之點並與周圍資料所得之平均，可視為波段平均強度曲線圖。
+由於資料可能因雜訊、環境光等造成數值落差太大，透過影像平均濾波分析（average filtering）對原收集之高光譜影像進行處理，其中使用固定視窗大小（window），如圖，視窗大小為3*3，選擇欲分析之點並與周圍資料所得之平均，可視為波段平均強度曲線圖。
 
 ![image](https://github.com/user-attachments/assets/b00ccc80-0286-4b6a-8bad-00cd979a7625)
 
